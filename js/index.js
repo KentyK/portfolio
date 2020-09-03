@@ -3,7 +3,8 @@ const splash = document.querySelector('.splash');
 window.addEventListener('load', (event) => {
     setTimeout(() => {
         splash.classList.add('display-none');
-        // AOS.refresh()
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+        AOS.refresh()
     }, 800)
 })
 
