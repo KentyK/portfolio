@@ -81,7 +81,7 @@
 }
 
 .jumbotron-text {
-    font-family: 'Roboto Regular', sans-serif;
+    font-family: 'Roboto Medium', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
@@ -92,7 +92,7 @@
 
 .section-title {
     font-family: 'Roboto Medium', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 40px;
 }
 
@@ -128,7 +128,7 @@
 
 #about-me .icon-text {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
     margin-top: 10px;
 }
@@ -140,8 +140,8 @@
 }
 
 .experience-box {
-    font-family: 'Roboto Medium', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .experience-box span {
@@ -254,8 +254,8 @@
 }
 
 #skill .skill-text {
-    font-family: 'Roboto Medium', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 18px;
     margin-top: 20px;
     padding-bottom: 10px;
@@ -278,7 +278,7 @@
 }
 
 #awardpub .award-pub-text span {
-    font-family: 'Roboto Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
