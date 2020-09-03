@@ -2,7 +2,7 @@ const splash = document.querySelector('.splash');
 
 
 
-document.addEventListener('DOMContentLoaded', (e) => {
+window.addEventListener('load', (event) => {
     var referURL = document.referrer;
     var path = referURL.replace(/^https?:\/\//, '').split('/');
     if (path[1] != "works") {
