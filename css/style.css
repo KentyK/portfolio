@@ -6,7 +6,7 @@
     height: 100vh;
     background-color: #080808;
     z-index: 200;
-    color: 080808;
+    color: #080808;
     text-align: center;
     line-height: 90vh;
     font-family: 'Roboto Regular';
@@ -24,7 +24,7 @@
     height: 100vh;
     background-color: #080808;
     z-index: -10;
-    color: 080808;
+    color: #080808;
     text-align: center;
     line-height: 90vh;
     font-family: 'Roboto Regular';
