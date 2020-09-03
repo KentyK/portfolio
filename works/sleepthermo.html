@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script>
+    $(function () {
+      $("#head-includedContent").load("../head.html");
+      $("#footer-includedContent").load("../footer.html");
+      $("#navbar-includedContent").load("../navbar.html");
+    });
+  </script>
+  <title>Kent Katsumata Portfolio - SleepThermo</title>
+</head>
+
+<body>
+  <div id="head-includedContent"></div>
+  <link href="/css/work.css" rel="stylesheet">
+  <nav>
+    <div id="navbar-includedContent"></div>
+  </nav>
+  <div class="splash" style="background-color:#c9c9c9;">
+    <p class="fade-in">SleepThermo</p>
+  </div>
+  <div class="work-content">
+    <section id="work-photo">
+      <div class="container">
+        <div class="row"><img class="img-fluid detail-photo" src="/img/SleepThermo_M1.jpg"></div>
+      </div>
+    </section>
+    <section id="about-work">
+      <div class="container">
+        <div class="row">
+          <p class="work-period">2018/08 ~ 2020/09</p>
+        </div>
+        <div class="row">
+          <p class="work-title">SleepThermo</p>
+        </div>
+        <div class="row">
+          <p class="work-role">Personal Research Project<br>
+            Language: Swift, Python(ML)</p>
+        </div>
+        <div class="row">
+          <p class="work-detail">With the advent of 24/7 technology-driven society, there are rising discomforts and
+            increasing concerns over sleep. Quality of sleep critically affects human well-being and everyday
+            performance. A good night's sleep, therefore, is essential to prepare one's mind and body for the next day.
+            SleepThermo is a system that identifies the affect of in-cloth monitored body temperature change during
+            sleep on human well-being.<br>
+            SleepThermo is an iOS app that collects survey responses on sleep quality and mental/physical conditions
+            using the Apple ResearchKit. Furthermore, it receives in-clothing body temperature data from a wearable
+            device ``Ran's Night’'. The device is 6.9 x 5.1 x 1.2 cm and weighs 77.1g. It is used by clipping onto the
+            users pants, and collects in-clothing body temperature with two sensors: (1) body sensor and (2) outer
+            sensor. The data is extracted by scanning the QR code presented on the display of the device. While
+            in-clothing body temperature does differ from the core body temperature, the difference is considered
+            insignificant. The main feature of this device that made it ideal for this research is its ability to
+            collect in-clothing body temperature continuously during sleep, without burdening the user.</p>
+        </div>
+        <div class="row">
+          <a class="mx-auto d-block" href="https://dl.acm.org/doi/10.1145/3341162.3347079" target="_blank"><button
+              class="button">Read the paper</button></a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="bottom-nav">
+    <div class="container">
+      <div class="row justify-content-between bottom-nav-buttons">
+        <a href="/works/codeillusion.html">
+          <p class="arrow">← PREV</p>
+        </a> <a href="../index.html#work"><img height="30" src="/img/grid.png" width="30"></a> <a
+          href="/works/komaflens.html">
+          <p class="arrow">NEXT →</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <div id="footer-includedContent"></div>
+  </footer>
+  <script src="/js/work.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

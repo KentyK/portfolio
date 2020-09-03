@@ -1,0 +1,347 @@
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    z-index: 200;
+    color: 080808;
+    text-align: center;
+    line-height: 90vh;
+    font-family: 'Roboto Regular';
+    font-weight: 700;
+    font-size: 40px;
+    color: #f7f8fc;
+}
+
+.splash.display-none {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    z-index: -10;
+    color: 080808;
+    text-align: center;
+    line-height: 90vh;
+    font-family: 'Roboto Regular';
+    font-weight: 700;
+    font-size: 40px;
+    transition: all 0.2s;
+    color: #f7f8fc;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.navbar-toggler {
+    width: 47px;
+    height: 34px;
+    float: right;
+    margin-top: 15px;
+}
+
+.navbar-header {
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    color: #707070;
+}
+
+.jumbotron {
+    background-color: #f7f8fc;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.jumbotron-text {
+    font-family: 'Roboto Regular';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about-container {
+    margin-top: 100px;
+}
+
+.section-title {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#about-me {
+    margin-bottom: 50px;
+}
+
+#about-me .section-title {
+    line-height: 100%;
+}
+
+#about-me .kenty-description {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-weight: 500;
+    font-size: 14;
+}
+
+#about-me .button {
+    background-color: #080808;
+    border: none;
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+#about-me .icon-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#education .bs-linebreak {
+    height: 2px;
+    background-color: #f3f3f3;
+    margin-bottom: 15px;
+}
+
+.experience-box {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+}
+
+.experience-box span {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-weight: 500;
+}
+
+#education {
+    margin-bottom: 50px;
+}
+
+#experience .bs-linebreak {
+    height: 2px;
+    background-color: #f3f3f3;
+    margin-bottom: 15px;
+}
+
+#experience {
+    margin-bottom: 50px;
+}
+
+#work .banner {
+    margin-bottom: 25px;
+}
+
+.hvrbox, .hvrbox * {
+    box-sizing: border-box;
+}
+
+.hvrbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvrbox img {
+    max-width: 100%;
+}
+
+.hvrbox .hvrbox-layer_bottom {
+    display: block;
+}
+
+.hvrbox .hvrbox-layer_top {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .hvrbox-layer_top, .hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+}
+
+.hvrbox .hvrbox-text {
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179);
+    /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+}
+
+.hvrbox.active .hvrbox-text_mobile {
+    display: block;
+}
+
+#work {
+    margin-bottom: 50px;
+}
+
+#skill .skill-box {
+    background-color: #f3f3f3;
+    margin-bottom: 30px;
+}
+
+#skill .skill-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#skill .skill-text {
+    font-family: 'Roboto Medium';
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#skill .skill-text span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#skill {
+    margin-bottom: 50px;
+}
+
+#awardpub .award-pub-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#awardpub .award-pub-text span {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+}
+
+#awardpub .bs-linebreak {
+    height: 2px;
+    background-color: #f3f3f3;
+    margin-bottom: 10px;
+}
+
+#awardpub {
+    margin-bottom: 100px;
+}
+
+#main-footer {
+    background-color: #202020;
+}
+
+#main-footer .footer-text {
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #909090;
+}
+
+#main-footer .footer-sns-icons {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+#main-footer .footer-nav {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#main-footer .footer-nav-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #909090;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #about-me .about-me-avatar {
+        margin-left: 85px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .about-container {
+        margin-top: 50px;
+    }
+    #about-me .section-title {
+        margin-top: 30px;
+    }
+    #about-me .button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #080808;
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        margin-top: 10px;
+    }
+}

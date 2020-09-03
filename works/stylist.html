@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script>
+    $(function () {
+      $("#head-includedContent").load("../head.html");
+      $("#footer-includedContent").load("../footer.html");
+      $("#navbar-includedContent").load("../navbar.html");
+    });
+  </script>
+  <title>Kent Katsumata Portfolio - KomaFlens</title>
+</head>
+
+<body>
+  <div id="head-includedContent"></div>
+  <link href="/css/work.css" rel="stylesheet">
+  <nav>
+    <div id="navbar-includedContent"></div>
+  </nav>
+  <div class="splash" style="background-color:#00b3ca;">
+    <p class="fade-in">Stylist</p>
+  </div>
+  <div class="work-content">
+    <section id="work-photo">
+      <div class="container">
+        <div class="row"><img class="img-fluid detail-photo" src="/img/Stylist_M1.jpg"></div>
+      </div>
+    </section>
+    <section id="about-work">
+      <div class="container">
+        <div class="row">
+          <p class="work-period">2015/01 ~ 2015/10</p>
+        </div>
+        <div class="row">
+          <p class="work-title">Stylist</p>
+        </div>
+        <div class="row">
+          <p class="work-role">Role: UI Design / Software Engineer<br>
+            Language: Swift<br>
+            Awards: Finalist (out of 1300) and awarded “Hikari TV Award, Teens Apps Award 2014<br></p>
+        </div>
+        <div class="row">
+          <p class="work-detail">“Stylist” is a wardrobe organizer created to assist outfit planning. Users take
+            pictures of their clothes and “Stylist” automatically tags and saves the upload photos to its respective
+            categories using Deep Learning. The split screen top-bottom mode (FIT) allows users to swipe and visualize
+            combinations. This app also suggests the best outfit based on the weather for the day. The significant
+            feature that makes “Stylist” unique is the iBeacon that is installed, which enables one way communication
+            between stores and users within 50 meters distance. By transmitting targeted advertisement and special
+            offers, stores can boost their sales while users can get the best deal.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="bottom-nav">
+    <div class="container">
+      <div class="row justify-content-between bottom-nav-buttons">
+        <a href="/works/komaflens.html">
+          <p class="arrow">← PREV</p>
+        </a> <a href="../index.html#work"><img height="30" src="/img/grid.png" width="30"></a> <a href="">
+          <!-- <p class="arrow">NEXT →</p> --></a>
+      </div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <div id="footer-includedContent"></div>
+  </footer>
+  <script src="/js/work.js" type="text/javascript">
+  </script>
+</body>
+
+</html>
